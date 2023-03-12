@@ -1,0 +1,80 @@
+/* Sales Department CSS */
+body {
+    background-color: #1c1c1c;
+    color: #dcdcdc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+a {
+    color: #b8b8b8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #dcdcdc;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Department Details CSS */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+a[href="add_employee.html?department=1"] {
+    background-color: #af2b2b;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+a[href="add_employee.html?department=1"]:hover {
+    background-color: #d93939;
+    color: #ffffff;
+}
+
+a[href="edit_department.html?id=1"], a[href="delete_department.html?id=1"] {
+    background-color: #dcdcdc;
+    color: #1c1c1c;
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+a[href="edit_department.html?id=1"]:hover, a[href="delete_department.html?id=1"]:hover {
+    background-color: #b8b8b8;
+    color: #1c1c1c;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List of employees</title>
+</head>
+<body>
+	<h1>List of employees</h1>
+	<form action="search_employees.html">
+		<label for="start_date">Start date:</label>
+		<input type="date" id="start_date" name="start_date"><br><br>
+		<label for="end_date">End date:</label>
+		<input type="date" id="end_date" name="end_date"><br><br>
+		<input type="submit" value="Search">
+	</form>
+	<br>
+	<ul>
+		<li><a href="employee_details.html?id=1">John Smith</a></li>
+		<li><a href="employee_details.html?id=2">Emily Brown</a></li>
+		<li><a href="employee_details.html?id=3">Lucas Lee</a></li>
+	</ul>
+	<br>
+	<a href="add_employee.html">Add employee</a>
+</body>
+</html>

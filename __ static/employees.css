@@ -1,0 +1,44 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Cinzel', serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+a {
+    font-family: 'Lora', serif;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+a:hover {
+    font-family: 'Lora', serif;
+    background-color: #fff;
+    color: #222;
+    transition: all 0.2s ease-in-out;
+}
